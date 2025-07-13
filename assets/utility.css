@@ -1,0 +1,375 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.d-flex,
+.stack {
+  display: flex;
+}
+
+.stack {
+  align-items: center;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.ta-left {
+  text-align: left;
+}
+
+.ta-right {
+  text-align: right;
+}
+
+.m-1,
+.ml-1,
+.mx-1 {
+  margin-left: 8px;
+}
+
+.m-1,
+.mr-1,
+.mx-1 {
+  margin-right: 8px;
+}
+
+.m-1,
+.mt-1,
+.my-1 {
+  margin-top: 8px;
+}
+
+.m-1,
+.mb-1,
+.my-1 {
+  margin-bottom: 8px;
+}
+
+.m-2,
+.ml-2,
+.mx-2 {
+  margin-left: 16px;
+}
+
+.m-2,
+.mr-2,
+.mx-2 {
+  margin-right: 16px;
+}
+
+.m-2,
+.mt-2,
+.my-2 {
+  margin-top: 16px;
+}
+
+.m-2,
+.mb-2,
+.my-2 {
+  margin-bottom: 16px;
+}
+
+.m-3,
+.ml-3,
+.mx-3 {
+  margin-left: 24px;
+}
+
+.m-3,
+.mr-3,
+.mx-3 {
+  margin-right: 24px;
+}
+
+.m-3,
+.mt-3,
+.my-3 {
+  margin-top: 24px;
+}
+
+.m-3,
+.mb-3,
+.my-3 {
+  margin-bottom: 24px;
+}
+
+.m-4,
+.ml-4,
+.mx-4 {
+  margin-left: 32px;
+}
+
+.m-4,
+.mr-4,
+.mx-4 {
+  margin-right: 32px;
+}
+
+.m-4,
+.mt-4,
+.my-4 {
+  margin-top: 32px;
+}
+
+.m-4,
+.mb-4,
+.my-4 {
+  margin-bottom: 32px;
+}
+
+.m-5,
+.ml-5,
+.mx-5 {
+  margin-left: 40px;
+}
+
+.m-5,
+.mr-5,
+.mx-5 {
+  margin-right: 40px;
+}
+
+.m-5,
+.mt-5,
+.my-5 {
+  margin-top: 40px;
+}
+
+.m-5,
+.mb-5,
+.my-5 {
+  margin-bottom: 40px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.p-1,
+.pl-1,
+.px-1 {
+  padding-left: 8px;
+}
+
+.p-1,
+.pr-1,
+.px-1 {
+  padding-right: 8px;
+}
+
+.p-1,
+.pt-1,
+.py-1 {
+  padding-top: 8px;
+}
+
+.p-1,
+.pb-1,
+.py-1 {
+  padding-bottom: 8px;
+}
+
+.p-2,
+.pl-2,
+.px-2 {
+  padding-left: 16px;
+}
+
+.p-2,
+.pr-2,
+.px-2 {
+  padding-right: 16px;
+}
+
+.p-2,
+.pt-2,
+.py-2 {
+  padding-top: 16px;
+}
+
+.p-2,
+.pb-2,
+.py-2 {
+  padding-bottom: 16px;
+}
+
+.p-3,
+.pl-3,
+.px-3 {
+  padding-left: 24px;
+}
+
+.p-3,
+.pr-3,
+.px-3 {
+  padding-right: 24px;
+}
+
+.p-3,
+.pt-3,
+.py-3 {
+  padding-top: 24px;
+}
+
+.p-3,
+.pb-3,
+.py-3 {
+  padding-bottom: 24px;
+}
+
+.p-4,
+.pl-4,
+.px-4 {
+  padding-left: 32px;
+}
+
+.p-4,
+.pr-4,
+.px-4 {
+  padding-right: 32px;
+}
+
+.p-4,
+.pt-4,
+.py-4 {
+  padding-top: 32px;
+}
+
+.p-4,
+.pb-4,
+.py-4 {
+  padding-bottom: 32px;
+}
+
+.p-5,
+.pl-5,
+.px-5 {
+  padding-left: 40px;
+}
+
+.p-5,
+.pr-5,
+.px-5 {
+  padding-right: 40px;
+}
+
+.p-5,
+.pt-5,
+.py-5 {
+  padding-top: 40px;
+}
+
+.p-5,
+.pb-5,
+.py-5 {
+  padding-bottom: 40px;
+}
+
+.pt-none {
+}
+
+.f-1 {
+  flex: 1;
+}
+
+.f-2 {
+  flex: 2;
+}
+
+.f-3 {
+  flex: 3;
+}
+
+.f-4 {
+  flex: 4;
+}
+
+.f-5 {
+  flex: 5;
+}
+
+.br-1 {
+  border-radius: 6px;
+}
+
+.br-2 {
+  border-radius: 12px;
+}
+
+.br-3 {
+  border-radius: 18px;
+}
+
+.br-4 {
+  border-radius: 24px;
+}
+
+.br-5 {
+  border-radius: 32px;
+}
+
+.fs-1 {
+  font-size: 8px;
+}
+
+.fs-2 {
+  font-size: 12px;
+}
+
+.fs-3 {
+  font-size: 18px;
+}
+
+.fs-4 {
+  font-size: 24px;
+}
+
+.fs-5 {
+  font-size: 32px;
+}
+
+.fw-1 {
+  font-weight: 200;
+}
+
+.fw-2 {
+  font-weight: 300;
+}
+
+.fw-3 {
+  font-weight: 400;
+}
+
+.fw-4 {
+  font-weight: 500;
+}
+
+.fw-5 {
+  font-weight: 600;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.chip {
+  border-radius: 100px;
+  padding: 6px 12px;
+  border: none;
+}
