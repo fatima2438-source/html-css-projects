@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.card {
+  background-color: white;
+  max-width: 35%;
+  margin: 22px auto;
+  padding: 16px;
+  border-radius: 18px;
+}
+
+input {
+  width: 72%;
+  padding: 12px;
+  border: none;
+  background-color: #f8f8f8;
+}
+
+.can-view {
+  border: none;
+  background-color: #ffffff;
+  height: 30px;
+  width: 96px;
+  border-radius: 12px;
+  margin: auto 4px;
+  padding: 4px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+form > div {
+  flex: 4;
+  border: rgb(81, 81, 81) 0.5px solid;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-right: 8px;
+  background-color: #f8f8f8;
+}
+
+form > button {
+  flex: 1;
+  background-color: black;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 15px;
+}
+
+.flex {
+  display: flex;
+}
+
+.people-card {
+  display: flex;
+  align-items: center;
+}
+
+.grey-text {
+  color: #727272;
+  font-weight: 500;
+}
+
+hr {
+  margin: 16px 0px;
+}
+
+.access > h6,
+.content > h6 {
+  color: #909090;
+  margin-bottom: 12px;
+}
+
+.black-text,
+.people-name {
+  font-size: 12px;
+  font-weight: 350;
+  padding-bottom: 3px;
+}
+
+.logo {
+  border: 2px transparent;
+  padding: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 8px;
+  margin: 8px;
+}
+
+.people-info {
+  margin: 6px 0px;
+  margin-left: 8px;
+  flex: 1;
+}
+
+.mt-9 {
+  margin: 9px;
+}
+
+.people-access-button {
+  border: none;
+  font-size: 12px;
+  background-color: #ffffff;
+}
+
+.footer {
+  justify-content: space-between;
+  display: flex;
+}
+
+.link-button {
+  padding: 8px 16px;
+  border-radius: 12px;
+  background-color: #e3e3e3;
+  font-size: 12px;
+  border: 1px #727272 solid;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+#img-1 {
+  background-image: url(../images/1.jfif);
+}
+
+#img-2 {
+  background-image: url(../images/2.jfif);
+}
+
+#img-3 {
+  background-image: url(../images/3.jfif);
+}
+
+footer h5 {
+  flex: 1;
+}
